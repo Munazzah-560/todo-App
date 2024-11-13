@@ -1,7 +1,7 @@
 *{
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
-    background: linear-gradient(145deg,#19a55ff3,#227e8a);
+    background:linear-gradient(#eeedf0f5,#eef0edf5);
     padding: 10px;
 }
 .add{
@@ -21,6 +21,7 @@ input{
     background: transparent;
     padding: 10px;
 }
+
 button{
     border: none;
     outline: none;
@@ -30,6 +31,14 @@ button{
     font-size: 12px;
     border-radius: 20px;
     color:#fff;
+}
+@media screen and (max-width: 608px) {
+     .add{padding: auto;
+    margin: auto;
+}
+.add>button{
+    padding: 5px;
+}
 }
 
 
